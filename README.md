@@ -2,11 +2,11 @@
 联动沉沁状态栏 透明度切换图片
 忙了一阵终于有点时间了,记录下最近UI上实现的功能
 效果如下
-![这里写图片描述](https://img-blog.csdn.net/20180911115537503?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xoal9hbmRyb2lk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://img-blog.csdn.net/20180911115537503)
 
 沉沁状态栏渐变切换图片
 一开始想的是用两张imageview去实现这个效果 但是由于app有别的效果还有用两张Imageview的方式判断太复杂.所以就想了另一种方法去实现
-![这里写图片描述](https://img-blog.csdn.net/20180911144320647?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xoal9hbmRyb2lk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://img-blog.csdn.net/20180911144320647)
 
 通过采用两个viewpager联动的方式来达到切换图片渐变的效果
 沉沁区的viewpage 暂时命名为 statuViewPage
@@ -208,6 +208,3 @@ public abstract class OnPageChangeDirectListener implements ViewPager.OnPageChan
 通过这样设置就能让两个viewpage联动切换了
 
 **关于沉沁栏透明采用的GitHub上的 https://github.com/laobie 来兼容实现的**
-
-demo 和lib地址
-https://github.com/lhjandroid/LinkStatuViewPage
